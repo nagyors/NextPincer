@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">NextPincer</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="please_enter_your_credentials">Please enter your credentials</string>
+    <string name="name">name</string>
+    <string name="address">address</string>
+    <string name="cuisine">cuisine</string>
+    <string name="pricing">pricing</string>
+    <string name="new_restaurant">New Restaurant</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="price">price</string>
+    <string name="description">description</string>
+    <string name="rating">rating</string>
+    <string name="log_in_as_admin">Log in as Admin</string>
+
+    <string-array name="cuisine_items">
+        <item>Fast Food</item>
+        <item>Asian</item>
+        <item>Pizza</item>
+        <item>Local</item>
+        <item>Breakfast</item>
+    </string-array>
+
+    <string-array name="pricing_items">
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+    </string-array>
+
+    <string-array name="food_types">
+        <item>Starter</item>
+        <item>Soup</item>
+        <item>Main course</item>
+        <item>Desert</item>
+        <item>Drink</item>
+    </string-array>
+</resources>

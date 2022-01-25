@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="8dp"
+        android:padding="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            tools:text="Restaurant Name" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/tvCuisine"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:text="Asian"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tvPricing"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                tools:text="$$$"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <RatingBar
+            android:id="@+id/ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:isIndicator="true"
+            android:numStars="5"/>
+
+    </LinearLayout>
+
+</LinearLayout>
